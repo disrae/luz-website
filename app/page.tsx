@@ -5,6 +5,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Heart, Leaf, Users, Star, Phone, Mail, MapPin, Clock } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+// Comment
 
 export default function Component() {
   return (
