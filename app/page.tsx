@@ -1,10 +1,10 @@
-import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Heart, Leaf, Users, Star, Phone, Mail, MapPin, Clock } from "lucide-react"
-import Image from "next/image"
-import Link from "next/link"
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Heart, Leaf, Users, Star, Phone, Mail, MapPin, Clock } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Component() {
   return (
@@ -124,7 +124,7 @@ export default function Component() {
             </div>
             <div className="space-y-6">
               <div className="space-y-4">
-                <h3 className="text-4xl font-bold text-gray-800">Hi, I'm Sarah</h3>
+                <h3 className="text-4xl font-bold text-gray-800">Hi, I'm Luz</h3>
                 <p className="text-lg text-gray-600 leading-relaxed">
                   As a registered dietitian, I believe that true wellness comes from nourishing not just your body, but
                   your entire being. My approach celebrates the beautiful diversity of our relationships with food and
@@ -277,7 +277,7 @@ export default function Component() {
                   ))}
                 </div>
                 <p className="text-gray-600 italic">
-                  "Sarah helped me reconnect with my cultural foods in a healthy way. I finally feel at peace with
+                  "Luz helped me reconnect with my cultural foods in a healthy way. I finally feel at peace with
                   eating and my body."
                 </p>
                 <div className="flex items-center space-x-3">
@@ -321,7 +321,7 @@ export default function Component() {
                   ))}
                 </div>
                 <p className="text-gray-600 italic">
-                  "Sarah creates such a safe, welcoming space. I never felt judged, only supported and understood."
+                  "Luz creates such a safe, welcoming space. I never felt judged, only supported and understood."
                 </p>
                 <div className="flex items-center space-x-3">
                   <div className="w-12 h-12 bg-gradient-to-br from-orange-400 to-red-500 rounded-full flex items-center justify-center text-white font-bold">
@@ -474,5 +474,5 @@ export default function Component() {
         </div>
       </footer>
     </div>
-  )
+  );
 }
